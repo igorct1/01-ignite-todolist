@@ -1,4 +1,12 @@
+import './global.css'
+
+import { Header } from './components/Header'
 
 export function App() {
-	return <div></div>
+  return (
+    <div>
+      <Header />
+      <main></main>
+    </div>
+  )
 }
