@@ -1,4 +1,4 @@
-import logo from '../assets/rocket.svg'
+import logo from '../../assets/rocket.svg'
 
 import styles from './Header.module.css'
 

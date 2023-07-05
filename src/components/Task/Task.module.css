@@ -1,0 +1,67 @@
+.cardTask {
+	display: flex;
+	align-items: flex-start;
+	padding: 1.6rem;
+	background: var(--gray-500);
+
+	border-radius: 8px;
+	border: none;
+	color: var(--gray-100);
+
+	line-height: 1.4;
+
+	font-size: 1.4rem;
+	font-weight: normal;
+	gap: 1.2rem;
+}
+
+.checked button {
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.normalButton {
+	border-radius: 50%;
+	background: none;
+	border: 2px solid var(--blue);
+}
+
+.completedButton {
+	border: none;
+	background: var(--purple);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.completedButton svg {
+	color: var(--gray-100);
+}
+
+.cardTask p {
+	flex-grow: 1;
+	max-width: 63.2rem;
+}
+
+.normalItem {
+	transition: color 0.1s;
+	cursor: pointer;
+}
+
+.selectedItem {
+	text-decoration: line-through;
+	color: var(--gray-300);
+}
+
+.deleteButton {
+	border: none;
+	background: none;
+	color: var(--gray-100);
+	cursor: pointer;
+}
+
+.deleteButton:hover {
+	color: var(--danger);
+}
