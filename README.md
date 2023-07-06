@@ -28,7 +28,7 @@ Os dados são persistidos através do localStorage.
 **Clone o repositório**
 
 ```bash
-$ git clone https://github.com/igorct1/01-ignite-todolist
+$ git clone https://github.com/igorct1/01-ignite-todolist.git
 ```
 
 **Instale as dependências**
